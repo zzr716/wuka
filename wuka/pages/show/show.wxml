@@ -1,0 +1,24 @@
+<view class="page show">
+  <view class="info">
+<view class="black">
+  <view class="black-texts" >
+    <!-- <text hidden="{{flag === 0}}">这也许是东半球最有意思的____。</text> -->
+    <text>{{infolist.bt}}</text>
+  </view>
+</view>
+<view class="no"></view>
+<view class="white">
+  <view class="white-texts">
+    <!-- <text hidden="{{flag === 0}}">小程序</text> -->
+    <text>{{infolist.wt}}</text>
+  </view>
+</view>
+</view>
+<view class="refresh">
+<view class="refresh2"></view>
+<view class="refresh11">
+<image animation="{{animationData}}" class="refresh1" src="../image/refresh.png" bindtap="textChange"/>
+</view>
+<view class="refresh3"></view>
+</view>
+</view>
